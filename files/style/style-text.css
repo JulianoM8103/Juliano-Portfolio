@@ -1,0 +1,44 @@
+.title {
+    transition: all 0.5s ease-out;
+    margin-top: 275px;
+    font-size: 45px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    animation: jackInTheBox;
+    animation-duration: 2s;
+}
+
+.title1 {
+    transition: all 0.5s ease-out;
+    margin-top: 275px;
+    font-size: 38px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    animation: heartBeat;
+    animation-duration: 2s;
+}
+
+.title:hover,
+.title:focus {
+    rotate: -5deg;
+    font-size: 48px;
+}
+
+.title1:hover,
+.title1:focus {
+    font-size: 36px;
+}
+
+.subtitle {
+    transition: all 0.5s ease-out;
+    font-size: 30px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    animation: backInLeft;
+    animation-duration: 4s;
+}
+
+.subtitle:hover,
+.subtitle:focus {
+    font-size: 33px;
+}
